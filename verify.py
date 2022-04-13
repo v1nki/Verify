@@ -46,4 +46,4 @@ async def on_button_click(inter):
         member = inter.author
         await member.add_roles(verif)
         await inter.reply(res, ephemeral = True)
-bot.run('ODk2MDQ5MDY4MDY3OTMwMTUy.YWBcuQ.iHazF3xEgCYqKoKa4fabMkek2-M')
+bot.run('OTIyNTc4ODg2MTA0MDU1ODY4.YcDgiw.-h1KhU_Q55jH1wVPEmMnIUrnVng')
