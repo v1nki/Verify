@@ -27,7 +27,7 @@ async def verif(ctx):
         """,
         colour = 0xFE3F48
     )
-    emb.set_image(url = 'https://cdn.discordapp.com/attachments/963037714414972999/964441522516922388/Welcome.png')
+    emb.set_image(url = '')
 
     row = ActionRow(
         Button(
@@ -49,4 +49,4 @@ async def on_button_click(inter):
         member = inter.author
         await member.add_roles(verif)
         await inter.reply(res, ephemeral = True)
-bot.run('OTIyNTc4ODg2MTA0MDU1ODY4.YcDgiw.-h1KhU_Q55jH1wVPEmMnIUrnVng')
+bot.run('Token')
